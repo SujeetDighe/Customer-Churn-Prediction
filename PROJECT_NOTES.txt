@@ -1,0 +1,43 @@
+TELCO CUSTOMER CHURN PREDICTION
+
+Project Type: Machine Learning + Streamlit
+Algorithm: Logistic Regression
+Dataset: Telco Customer Churn
+
+OBJECTIVE
+To predict whether a telecom customer is likely to leave the company based on customer, service, contract, and billing information.
+
+TOOLS
+Python, Pandas, NumPy, Scikit-learn, Joblib, Streamlit, VS Code
+
+ML STEPS
+1. Data loading
+2. Data cleaning
+3. Feature/target separation
+4. One-hot encoding
+5. Train-test split
+6. Feature scaling
+7. Logistic Regression
+8. Model evaluation
+9. Model saving
+10. Streamlit prediction interface
+
+TARGET
+Churn:
+No = Stay
+Yes = Churn
+
+TEST ACCURACY
+Approximately 80.7%
+
+STREAMLIT INPUTS
+Gender, Senior Citizen, Partner, Dependents, Tenure, Phone Service,
+Multiple Lines, Internet Service, Online Security, Online Backup,
+Device Protection, Tech Support, Streaming TV, Streaming Movies,
+Contract, Paperless Billing, Payment Method, Monthly Charges, Total Charges.
+
+OUTPUT
+The application shows:
+- Churn / Stay prediction
+- Churn probability
+- Simple explanation of the result
